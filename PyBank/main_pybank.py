@@ -66,8 +66,8 @@ with open(pybank_csv, newline='') as csvfile:
 greatestIncreaseMonth = (months[GrInMn_index + 1]) #add 1 because popped first number
 greatestDecreaseMonth = (months[GrDeMn_index + 1]) #add 1 because popped first number
 
-print(f'Greatest Increase in Profits: {greatestIncreaseMonth} $({greatestIncrease})')
-print(f'Greatest Decrease in Profits: {greatestDecreaseMonth} $({greatestDecrease})')
+print(f'Greatest Increase in Profits: {greatestIncreaseMonth} ${greatestIncrease}')
+print(f'Greatest Decrease in Profits: {greatestDecreaseMonth} ${greatestDecrease}')
 
 
 #code should work with varying data in same format!
